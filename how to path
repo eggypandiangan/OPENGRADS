@@ -1,0 +1,18 @@
+Make folder, example in $HOME/.opengrads:
+$ mkdir -p .opengrads
+
+Download file from web below and paste at $HOME/.opengrads:
+https://sourceforge.net/projects/opengrads/files/grads2/2.2.1.oga.1/Linux%20%2864%20Bits%29/opengrads-2.2.1.oga.1-bundle-x86_64-pc-linux-gnu-glibc_2.17.tar.gz/download
+
+Extract use bash or anything:
+$tar -xzvf opengrads-2.2.1.oga.1-bundle-x86_64-pc-linux-gnu-glibc_2.17.tar.gz
+
+Go to Contents folder:
+$cd opengrads-2.2.1.oga.1/Contents
+
+Path some file (bufrscan,grib2scan,gribmap,gribscan,opengrads,stnmap) to /usr/local/bin
+Example for 'bufrscan', and do to the other:
+$sudo ln -s bufrscan /usr/local/bin
+
+Test to open 'opengrads', if can be open and process '.ctl' or '.nc' file, thats work
+
